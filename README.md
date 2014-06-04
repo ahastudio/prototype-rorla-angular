@@ -1,4 +1,7 @@
-prototype_rorla_angular
-=======================
+https://github.com/RORLabNew/rorla_api
 
-RORLab 웹사이트 리뉴얼 Front-end 프로토타입
+https://angularjs.org/
+
+http://getbootstrap.com/
+
+https://rails-assets.org/
