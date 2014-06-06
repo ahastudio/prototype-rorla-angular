@@ -10,8 +10,8 @@ app.controller 'PostsCtrl', ['$scope', '$http', ($scope, $http) ->
 
   $scope.submitForm = ->
     $http.post(api.urls.posts, post: $scope.formData).success (data) ->
+      $scope.posts.unshift(data)
       $scope.formData = {}
-      fetchPosts()
 
   fetchPosts()
 ]
